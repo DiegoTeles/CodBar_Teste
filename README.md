@@ -1,10 +1,10 @@
-GERADOR DE BOLETOS (SANTANDER) E LEITOR DE CÓDIGO DE BARRAS
+<h3>GERADOR DE BOLETOS (SANTANDER) E LEITOR DE CÓDIGO DE BARRAS</h1>
 
 Instruções de uso
 
 >>npm install
 
-Imprimir o Valor e Vencimentos formatados
+<h4>Imprimir o Valor e Vencimentos formatados</h4>
    
 Onde eu tenho minha váriavel "barra" inserir o codigo de barras
 
@@ -15,7 +15,7 @@ Em seguida rodar no terminal
 
 Para imprimir o Valor e Vencimentos formatados
 
-Para gerar um boleto
+<h4>Para gerar um boleto</h4>
 
 Rodar no terminal 
 
@@ -25,13 +25,13 @@ Após gerar esse comando ele imprime o numero do código de barras novo e gera u
 
 PARA BOLETOS FEBRABAN (COCESSIONÁRIA)
 
-Alterar codigo de barras na variável barra
+<p>Alterar codigo de barras na variável barra<p>
 >var barra = "81770000000 0 11093659970 2 41131079703 9 00143370831 8";
 
 Em seguida rodar no terminal
 >> node febraban
 
-ESPECIFICAÇÕES DO CODIGO
+<h3>ESPECIFICAÇÕES DO CODIGO</h3>
 
 >Trata valores do boleto se inserido com pontos, espaços ou algum caractere especial removendo-o,
 >Converte valor inteiro de para valor de Reais,
