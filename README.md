@@ -23,7 +23,7 @@ Rodar no terminal
 
 Após gerar esse comando ele imprime o numero do código de barras novo e gera um boleto.html na pasta .\views do projeto
 
-PARA BOLETOS FEBRABAN (COCESSIONÁRIA)
+PARA BOLETOS FEBRABAN (CONCESSIONÁRIA)
 
 <p>Alterar codigo de barras na variável barra<p>
 >var barra = "81770000000 0 11093659970 2 41131079703 9 00143370831 8";
